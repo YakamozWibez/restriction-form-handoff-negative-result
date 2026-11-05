@@ -1,0 +1,13 @@
+== RESTRICTION (agreement, kappa)
+ChatGPT-judge   | all n=60: 0.87 (k=0.71) | directive(D1,D2) n=25: 0.92 (k=0.83) | descriptive(S1,S2) n=22: 0.73 (k=0.30) | soft n=13: 1.00 (k=1.00)
+Grok-judge      | all n=60: 0.88 (k=0.75) | directive(D1,D2) n=25: 0.92 (k=0.83) | descriptive(S1,S2) n=22: 0.77 (k=0.43) | soft n=13: 1.00 (k=1.00)
+ChatGPT-Grok    | all n=60: 0.98 (k=0.96) | directive(D1,D2) n=25: 1.00 (k=1.00) | descriptive(S1,S2) n=22: 0.95 (k=0.78) | soft n=13: 1.00 (k=1.00)
+== FACT REPORTED (agreement, kappa)
+ChatGPT-judge   | all n=60: 0.77 (k=0.45) | directive(D1,D2) n=25: 0.80 (k=-0.07) | descriptive(S1,S2) n=22: 0.73 (k=0.49) | soft n=13: 0.77 (k=0.52)
+Grok-judge      | all n=60: 0.73 (k=0.43) | directive(D1,D2) n=25: 0.88 (k=0.36) | descriptive(S1,S2) n=22: 0.73 (k=0.49) | soft n=13: 0.46 (k=0.17)
+ChatGPT-Grok    | all n=60: 0.83 (k=0.66) | directive(D1,D2) n=25: 0.84 (k=0.40) | descriptive(S1,S2) n=22: 0.91 (k=0.81) | soft n=13: 0.69 (k=0.41)
+== mean by form: restriction | fact
+all                  Y judge=0.58 grok=0.70 chatgpt=0.72 | fact judge=0.18 grok=0.45 chatgpt=0.38
+directive(D1,D2)     Y judge=0.36 grok=0.44 chatgpt=0.44 | fact judge=0.04 grok=0.16 chatgpt=0.16
+descriptive(S1,S2)   Y judge=0.64 grok=0.86 chatgpt=0.91 | fact judge=0.32 grok=0.59 chatgpt=0.59
+soft                 Y judge=0.92 grok=0.92 chatgpt=0.92 | fact judge=0.23 grok=0.77 chatgpt=0.46

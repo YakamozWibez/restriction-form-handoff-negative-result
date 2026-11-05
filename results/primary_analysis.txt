@@ -1,0 +1,7 @@
+modello | n scenari | Delta | IC95% | Y_D | Y_S | Y_soft | leak_D | leak_S
+Qwen/Qwen3.6-Plus | 36 | -0.069 | [-0.181, +0.042] | 0.69 | 0.76 | 0.94 | 0.12 | 0.36
+deepseek-ai/DeepSeek-V4.1-Flash | 36 | -0.319 | [-0.458, -0.181] | 0.49 | 0.81 | 0.72 | 0.04 | 0.43
+gpt-5-mini | 36 | -0.333 | [-0.500, -0.167] | 0.39 | 0.72 | 0.75 | 0.17 | 0.82
+
+Segno positivo in 0/3 modelli; modelli con Delta>=0.15 e IC>0: 0/3
+FALLISCE (limite sup < 0.10 in tutti)
