@@ -2,7 +2,7 @@
 
 **Status: exploratory, not peer reviewed, not a paper.** 36 synthetic scenarios, 3 models, one LLM judge that did **not** pass its own validation check. Read the limitations before citing anything.
 
-**Author:** [Author name], Independent Scholar, Italy · ORCID: [ORCID]
+**Author:** Manuele Tele Junior Fernandez, Independent Scholar, Italy · ORCID: https://orcid.org/0009-0006-6954-6505
 
 ## One-paragraph summary
 
