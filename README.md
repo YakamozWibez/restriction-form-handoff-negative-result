@@ -106,6 +106,10 @@ python3 5_g5_compare.py ../g5/g5_sample_key.json ../g5/labels_grok.txt ../g5/lab
 
 Included: code, protocol, per-row judged results **without scenario or handoff text**, the G5 labels and key. Not included: the benchmark scenarios and the raw model outputs, because the source repository carries no license and the outputs reproduce its scenario text. They can be regenerated with the commands above.
 
+> **Status update (2026-11):** Closed. No further work is planned on this hypothesis.
+> A follow-up line on constraint loss in multi-agent handoffs (constraint form × access to the original) was run as a pilot and abandoned after audit; it is not part of this repository.
+> Later exploratory work, if published, will live in a separate repository.
+
 ## License
 
 Code: [choose, e.g. MIT]. Text and tables: [choose, e.g. CC-BY-4.0].
